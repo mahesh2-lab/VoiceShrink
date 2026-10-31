@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VoiceShrink</string>
+    <string name="title_call_recordings">VoiceShrink</string>
+    <string name="search_placeholder">Search recordings by name, number or date…</string>
+    <string name="search_clear_desc">Clear search query</string>
+    <string name="search_icon_desc">Search recordings</string>
+    <string name="settings_icon_desc">Settings and configuration</string>
+    <string name="sort_icon_desc">Sort recordings</string>
+    <string name="more_options_desc">More options</string>
+    <string name="play_desc">Play %1$s</string>
+    <string name="pause_desc">Pause %1$s</string>
+    <string name="retry_desc">Retry compression for %1$s</string>
+    <string name="retry_button">Retry</string>
+    <string name="compress_now">Compress now</string>
+
+    <!-- Filter Chips -->
+    <string name="filter_all">All (%1$d)</string>
+    <string name="filter_compressed">Compressed (%1$d)</string>
+    <string name="filter_queued">Queued (%1$d)</string>
+    <string name="filter_failed">Failed (%1$d)</string>
+
+    <!-- Status labels -->
+    <string name="status_done">Compressed</string>
+    <string name="status_queued">Queued for compression</string>
+    <string name="status_waiting_charger">Waiting for charger</string>
+    <string name="status_failed">Compression Failed</string>
+    <string name="status_saved_format">Saved %1$d%% • %2$s</string>
+    <string name="summary_savings_row">Saved %1$s • %2$d%%</string>
+
+    <!-- Semantics -->
+    <string name="semantics_card_done">%1$s, compressed, saved %2$d percent</string>
+    <string name="semantics_card_queued">%1$s, queued for compression</string>
+    <string name="semantics_card_failed">%1$s, compression failed</string>
+
+    <!-- Details & Stats -->
+    <string name="title_compression_details">Compression Details &amp; Stats</string>
+    <string name="saved_banner_title">%1$s Saved</string>
+    <string name="saved_banner_subtitle">%1$d%% overall storage reduction</string>
+    <string name="original_size">Original size: %1$s</string>
+    <string name="compressed_size">Compressed size: %1$s</string>
+    <string name="tile_done">Done</string>
+    <string name="tile_in_queue">In Queue</string>
+    <string name="tile_failed">Failed</string>
+    <string name="waiting_section_title">Waiting for Compression</string>
+    <string name="failed_section_title">Failed Recordings</string>
+    <string name="compressed_recordings_list">Compressed Recordings List</string>
+    <string name="no_recordings_compressed_yet">No recordings compressed yet. Incoming calls and audio recordings will compress automatically in the background.</string>
+    <string name="recording_details">Recording Details</string>
+    <string name="date_and_time">Date &amp; Time</string>
+    <string name="duration_label">Duration</string>
+    <string name="status_label">Status</string>
+    <string name="space_saved">Space Saved</string>
+    <string name="format_label">Format</string>
+    <string name="format_opus_ogg">Opus Ogg Audio</string>
+    <string name="original_path">Original Path</string>
+    <string name="compressed_path">Compressed Path</string>
+
+    <!-- Welcome & Empty States -->
+    <string name="welcome_title">Compress call recordings automatically</string>
+    <string name="welcome_privacy_line">Everything stays on your device. No account, no uploads.</string>
+    <string name="welcome_step_1">1. Choose the folder where your phone saves calls.</string>
+    <string name="welcome_step_2">2. Done. New recordings are compressed automatically.</string>
+    <string name="welcome_button">Get started &amp; choose folder</string>
+    <string name="no_folder_selected_snackbar">No folder selected. Pick a folder to start auto-compression.</string>
+
+    <string name="no_recordings_title">No call recordings found in this folder.</string>
+    <string name="no_recordings_subtitle">Make sure your call recorder is actively saving audio files here.</string>
+    <string name="scan_now_button">Scan now</string>
+    <string name="change_folder_button">Change folder</string>
+    <string name="no_filtered_results">No results matching \"%1$s\"</string>
+    <string name="no_category_results">No recordings in this category</string>
+    <string name="clear_filter_button">Clear filter / search</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings &amp; Configuration</string>
+    <string name="watched_folder_title">Watched Folder</string>
+    <string name="bitrate_title">Opus Audio Bitrate Quality</string>
+    <string name="bitrate_subtitle">Mono speech compression bitrate:</string>
+    <string name="bitrate_16">16 kbps (Compact, ~7 MB/hour)</string>
+    <string name="bitrate_24">24 kbps (Balanced, recommended, ~10 MB/hour)</string>
+    <string name="bitrate_32">32 kbps (High Quality, ~14 MB/hour)</string>
+    <string name="require_charging_title">Require Charger</string>
+    <string name="require_charging_subtitle">Only compress when phone is plugged into power.</string>
+    <string name="delete_original_title">Delete Original After Compression</string>
+    <string name="delete_original_subtitle">Safely removes uncompressed source file once Opus copy is verified.</string>
+    <string name="delete_original_warning">Warning: Original recordings will be permanently deleted after compression.</string>
+    <string name="hide_phone_numbers_title">Hide Phone Numbers in List</string>
+    <string name="hide_phone_numbers_subtitle">Masks phone numbers (e.g. ••••••789) for shoulder-surfing privacy.</string>
+    <string name="battery_opt_title">Compression not running in the background?</string>
+    <string name="battery_opt_subtitle">Configure battery optimization settings to prevent OEM background limits.</string>
+    <string name="maintenance_title">Maintenance &amp; Repair</string>
+    <string name="rescan_folder_button">Re-scan Folder</string>
+    <string name="clean_duplicates_button">Clean Duplicates</string>
+
+    <!-- Dialogs & General -->
+    <string name="delete_recording_dialog_title">Delete Recording</string>
+    <string name="delete_dialog_both">Remove \"%1$s\"? This will delete both the compressed copy and the original file from your storage.</string>
+    <string name="delete_dialog_list_only">Remove \"%1$s\"? This removes the entry from the app. The original file in your storage folder will be preserved.</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_play">Play</string>
+    <string name="action_pause">Pause</string>
+    <string name="action_share">Share</string>
+
+    <!-- Path labels -->
+    <string name="internal_storage">Internal storage</string>
+    <string name="sd_card">SD card</string>
+    <string name="storage">Storage</string>
+    <string name="none_selected">None selected</string>
+
+    <!-- Plurals -->
+    <plurals name="items_count">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+</resources>
