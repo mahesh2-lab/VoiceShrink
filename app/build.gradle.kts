@@ -5,13 +5,13 @@ plugins {
 }
 
 android {
-    namespace = "com.example.callcompressor"
+    namespace = "com.voiceshrink.app"
     compileSdk {
         version = release(35)
     }
 
     defaultConfig {
-        applicationId = "com.example.callcompressor"
+        applicationId = "com.voiceshrink.app"
         minSdk = 29
         targetSdk = 35
         versionCode = 1

@@ -1,4 +1,4 @@
-package com.example.callcompressor
+package com.voiceshrink.app
 
 data class ParsedName(
     val contact: String,

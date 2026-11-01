@@ -1,4 +1,4 @@
-package com.example.callcompressor
+package com.voiceshrink.app
 
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull

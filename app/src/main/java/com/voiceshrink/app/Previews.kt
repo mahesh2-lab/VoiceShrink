@@ -1,4 +1,4 @@
-package com.example.callcompressor
+package com.voiceshrink.app
 
 import android.content.res.Configuration
 import androidx.compose.foundation.layout.Column

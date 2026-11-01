@@ -1,4 +1,4 @@
-package com.example.callcompressor
+package com.voiceshrink.app
 
 import android.app.NotificationChannel
 import android.app.NotificationManager

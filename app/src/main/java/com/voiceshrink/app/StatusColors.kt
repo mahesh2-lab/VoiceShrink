@@ -1,4 +1,4 @@
-package com.example.callcompressor
+package com.voiceshrink.app
 
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.runtime.Composable

@@ -1,4 +1,4 @@
-package com.example.callcompressor
+package com.voiceshrink.app
 
 import android.content.Context
 import androidx.work.Constraints

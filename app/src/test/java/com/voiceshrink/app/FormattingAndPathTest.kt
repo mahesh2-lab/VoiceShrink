@@ -1,4 +1,4 @@
-package com.example.callcompressor
+package com.voiceshrink.app
 
 import androidx.compose.ui.graphics.Color
 import org.junit.Assert.assertEquals
